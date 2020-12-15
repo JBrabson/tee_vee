@@ -1,5 +1,7 @@
 class Show
-  attr_reader :show
+  attr_reader :name,
+              :creator,
+              :characters
 
   def initialize(name, creator, characters)
     @name = name
